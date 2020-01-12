@@ -1,0 +1,99 @@
+C:/Users/USER/Desktop/RISCV_standard/PC.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/PC.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/BrCompare.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/BrCompare.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module BrCompare
+
+Top level modules:
+	BrCompare
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/RISCV_tb.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/RISCV_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RISCV_tb
+
+Top level modules:
+	RISCV_tb
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/add4.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/add4.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module add4
+
+Top level modules:
+	add4
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/ImmGen.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/ImmGen.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ImmGen
+
+Top level modules:
+	ImmGen
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/main.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/main.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module main
+
+Top level modules:
+	main
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/Reg.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/Reg.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Reg
+
+Top level modules:
+	Reg
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/Control_Unit.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/Control_Unit.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Control_Unit
+
+Top level modules:
+	Control_Unit
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/IMEM.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/IMEM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/ALU32b.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/ALU32b.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU32b
+
+Top level modules:
+	ALU32b
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/DMEM.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/DMEM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/mux2_1.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/mux2_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/ALU1b.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/ALU1b.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU1b
+
+Top level modules:
+	ALU1b
+
+} {} {}} C:/Users/USER/Desktop/RISCV_standard/mux4_1.v {1 {vlog -work work -stats=none C:/Users/USER/Desktop/RISCV_standard/mux4_1.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux4_1
+
+Top level modules:
+	mux4_1
+
+} {} {}}

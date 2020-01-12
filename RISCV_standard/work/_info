@@ -1,0 +1,314 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/USER/Desktop/RICSV_stimulator
+vadd4
+Z0 !s110 1576810104
+!i10b 1
+!s100 SS9z:>aPh0B4^bFG3Qac>3
+I@CKCoImS1^^>1][H921MT0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/USER/Desktop/RISCV_standard
+w1574748392
+8C:/Users/USER/Desktop/RISCV_standard/add4.v
+FC:/Users/USER/Desktop/RISCV_standard/add4.v
+L0 1
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1576810104.000000
+!s107 C:/Users/USER/Desktop/RISCV_standard/add4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/add4.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vALU1b
+R0
+!i10b 1
+!s100 CaGSe@bEXoKI4B?g3Tc=^1
+IBFQ77fCcHk3b@4nE_J9bU3
+R1
+R2
+w1574748407
+8C:/Users/USER/Desktop/RISCV_standard/ALU1b.v
+FC:/Users/USER/Desktop/RISCV_standard/ALU1b.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/USER/Desktop/RISCV_standard/ALU1b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/ALU1b.v|
+!s101 -O0
+!i113 1
+R5
+n@a@l@u1b
+vALU32b
+R0
+!i10b 1
+!s100 N<<AQ65e<MT]F4RBWf@>h0
+I[`ULBOACAe`R;de1]k?Af3
+R1
+R2
+w1574748422
+8C:/Users/USER/Desktop/RISCV_standard/ALU32b.v
+FC:/Users/USER/Desktop/RISCV_standard/ALU32b.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/USER/Desktop/RISCV_standard/ALU32b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/ALU32b.v|
+!s101 -O0
+!i113 1
+R5
+n@a@l@u32b
+vBrCompare
+Z6 !s110 1576810105
+!i10b 1
+!s100 n>:c@Vm1Gh`OgzE4N8Mji0
+I1Bh<i]Qh`Kj=RDVCZQoei0
+R1
+R2
+w1574748433
+8C:/Users/USER/Desktop/RISCV_standard/BrCompare.v
+FC:/Users/USER/Desktop/RISCV_standard/BrCompare.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z7 !s108 1576810105.000000
+!s107 C:/Users/USER/Desktop/RISCV_standard/BrCompare.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/BrCompare.v|
+!s101 -O0
+!i113 1
+R5
+n@br@compare
+vControl_Unit
+R6
+!i10b 1
+!s100 @RS[OFV80Bh__A6Igo?jA0
+IX>DZUZY`2>7?1Hid2k9?J2
+R1
+R2
+w1576750259
+8C:/Users/USER/Desktop/RISCV_standard/Control_Unit.v
+FC:/Users/USER/Desktop/RISCV_standard/Control_Unit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/Control_Unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/Control_Unit.v|
+!s101 -O0
+!i113 1
+R5
+n@control_@unit
+vDMEM
+R6
+!i10b 1
+!s100 Q9`GB^;09T^95KB_OdaXI0
+IXIRd8XKQdYDon`jf]058K3
+R1
+R2
+w1576750201
+8C:/Users/USER/Desktop/RISCV_standard/DMEM.v
+FC:/Users/USER/Desktop/RISCV_standard/DMEM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/DMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/DMEM.v|
+!s101 -O0
+!i113 1
+R5
+n@d@m@e@m
+vIMEM
+R6
+!i10b 1
+!s100 ^4a75m@=>DG3_jY`<6`Sh1
+Iii]4TaMQ0`C8iL^_TokZD2
+R1
+R2
+w1576750224
+8C:/Users/USER/Desktop/RISCV_standard/IMEM.v
+FC:/Users/USER/Desktop/RISCV_standard/IMEM.v
+L0 7
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/IMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/IMEM.v|
+!s101 -O0
+!i113 1
+R5
+n@i@m@e@m
+vImmGen
+R6
+!i10b 1
+!s100 =[]OdP>RKkQJAccQa1cL71
+Ih^74T:0^S3zLQ3o@Z7m:m0
+R1
+R2
+w1574748807
+8C:/Users/USER/Desktop/RISCV_standard/ImmGen.v
+FC:/Users/USER/Desktop/RISCV_standard/ImmGen.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/ImmGen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/ImmGen.v|
+!s101 -O0
+!i113 1
+R5
+n@imm@gen
+vmain
+R6
+!i10b 1
+!s100 eMR2T2=dY?;4ZVOjR[31G2
+ImXWMbJf72eXf`AeFF=H<c1
+R1
+R2
+w1574748610
+8C:/Users/USER/Desktop/RISCV_standard/main.v
+FC:/Users/USER/Desktop/RISCV_standard/main.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/main.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/main.v|
+!s101 -O0
+!i113 1
+R5
+vmux2_1
+R6
+!i10b 1
+!s100 ]oTK2aZEE>[DAhOdi2:Tb0
+I1F>zUFViD><3Zb;^C>2FD3
+R1
+R2
+w1574748694
+8C:/Users/USER/Desktop/RISCV_standard/mux2_1.v
+FC:/Users/USER/Desktop/RISCV_standard/mux2_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/mux2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/mux2_1.v|
+!s101 -O0
+!i113 1
+R5
+vmux4_1
+Z8 !s110 1576810106
+!i10b 1
+!s100 =mzY^4FNUJ1OPV51Xk6ia2
+I;RJIG981B>fSS[RS7OP<_2
+R1
+R2
+w1574748707
+8C:/Users/USER/Desktop/RISCV_standard/mux4_1.v
+FC:/Users/USER/Desktop/RISCV_standard/mux4_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/USER/Desktop/RISCV_standard/mux4_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/mux4_1.v|
+!s101 -O0
+!i113 1
+R5
+vPC
+R8
+!i10b 1
+!s100 YG=N9al>O05dZ[Nh[?5223
+I3kaoeE^P@U902L1<kaajI3
+R1
+R2
+w1574748725
+8C:/Users/USER/Desktop/RISCV_standard/PC.v
+FC:/Users/USER/Desktop/RISCV_standard/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1576810106.000000
+!s107 C:/Users/USER/Desktop/RISCV_standard/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/PC.v|
+!s101 -O0
+!i113 1
+R5
+n@p@c
+vReg
+R8
+!i10b 1
+!s100 ]eka:aZInCImDj?Ya3?Mk0
+INS5hB[K@cTdGn8AKXF]z81
+R1
+R2
+w1576750240
+8C:/Users/USER/Desktop/RISCV_standard/Reg.v
+FC:/Users/USER/Desktop/RISCV_standard/Reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/USER/Desktop/RISCV_standard/Reg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/Reg.v|
+!s101 -O0
+!i113 1
+R5
+n@reg
+vRISCV_tb
+R0
+!i10b 1
+!s100 HNnk@@<B7gc;9NaImB?e73
+I]n5dKAgYbPg5dSL^m=AdY1
+R1
+R2
+w1574748770
+8C:/Users/USER/Desktop/RISCV_standard/RISCV_tb.v
+FC:/Users/USER/Desktop/RISCV_standard/RISCV_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/USER/Desktop/RISCV_standard/RISCV_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/USER/Desktop/RISCV_standard/RISCV_tb.v|
+!s101 -O0
+!i113 1
+R5
+n@r@i@s@c@v_tb

@@ -1,0 +1,86 @@
+module CPU_main(clk,dataD);
+parameter	PC_LENGTH = 32;
+parameter	INST_LENGTH = 32;
+parameter 	DATA_LENGTH = 32;
+parameter 	REG_ADDR_LENGTH = 5; 
+parameter 	IMMIN_LENGTH = INST_LENGTH - 7;
+
+input clk;
+input [DATA_LENGTH - 1 : 0] dataD; //fix bug for Reg
+
+////
+//ngo ra
+///
+//PC
+wire [PC_LENGTH-1:0] pcOut;
+//add4
+wire [PC_LENGTH-1:0] pc_plus_4;
+//IMEM
+wire [INST_LENGTH-1:0] inst;
+//Control Unit
+wire [2:0] ALUSel, immSel;
+wire [1:0] WBSel;
+wire BrUn,PCSel,ASel,BSel,MemRW,RegWEn;
+//Reg
+wire [REG_ADDR_LENGTH - 1 : 0] addrA,addrB,addrD;
+wire [DATA_LENGTH - 1 : 0] dataA,dataB;
+//BrCompare
+wire BrEq,BrLt;
+//ImmGen
+wire [IMMIN_LENGTH-1:0] immIn;
+wire [DATA_LENGTH-1:0] immOut;
+//muxA
+wire [DATA_LENGTH-1:0] alumux1_out;
+//muxB
+wire [DATA_LENGTH-1:0] alumux2_out;
+
+////
+//day noi
+////
+//PC
+wire [PC_LENGTH-1:0] pcIn;
+//add4
+
+//IMEM
+
+//Control Unit
+
+//Reg
+
+//BrCompare
+
+//ImmGen
+
+//muxA
+
+
+////
+//ghep khoi
+////
+//PC
+assign pcIn = pc_plus_4;
+PC u1(pcIn,pcOut,clk);
+//add4
+add4 u2(pcOut,pc_plus_4);
+//IMEM
+IMEM u3(pcOut,inst);
+//Control Unit
+Control_Unit u4(inst,BrEq,BrLt,BrUn,PCSel,immSel,ASel,BSel,ALUSel,MemRW,RegWEn,WBSel);
+//Reg
+assign addrA = inst[19:15];
+assign addrB = inst[24:20];
+assign addrD = inst[11:7];
+Reg u5(addrA,addrB,addrD,dataD,dataA,dataB,RegWEn,clk);
+//BrCompare
+BrCompare u6(dataA,dataB,BrUn,BrEq,BrLt);
+//ImmGen
+assign immIn = inst[31:7];
+ImmGen u7(immIn,immOut,immSel);
+//muxA
+mux2_1 u8(dataA,pcOut,alumux1_out,ASel);
+//muxB
+mux2_1 u9(dataB,immOut,alumux2_out,BSel);
+//ALU
+
+
+endmodule 

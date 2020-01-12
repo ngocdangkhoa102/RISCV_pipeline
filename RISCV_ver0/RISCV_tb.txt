@@ -1,0 +1,13 @@
+module	RISCV_tb();
+reg clk;
+reg [31:0] dataD;
+CPU_main u1(clk,dataD);
+
+initial
+begin
+dataD = 32'h0000_0000;
+clk = 1'b0;
+forever #20 clk = ~clk;
+end
+
+endmodule

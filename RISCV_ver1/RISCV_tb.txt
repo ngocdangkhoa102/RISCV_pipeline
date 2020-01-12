@@ -1,0 +1,11 @@
+module	RISCV_tb();
+reg clk;
+CPU_main u1(clk);
+
+initial
+begin
+clk = 1'b0;
+forever #10 clk = ~clk;
+end
+
+endmodule
